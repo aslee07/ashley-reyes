@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 50px 8%;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-content {
+    flex: 1;
+    max-width: 45%;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    color: #6a42c9;
+    margin-bottom: 10px;
+}
+
+.mytitle{        
+    font-weight: bold;                                                                                 
+    font-size: 1.5rem;
+    color: #6a42c9;
+}
+
+.name-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #191847;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.role-button {
+    background-color: #6a42c9;
+    color: #fff;
+    font-size: 1rem;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.fade-text {
+    font-size: 1.8rem;
+    color: #6a42c9;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    animation: fadeEffect 3s infinite;
+}
+
+@keyframes fadeEffect {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+.view-more {
+    background-color: #6a42c9;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.profile-image {
+    position: relative;
+    flex: 1;
+    max-width: 123%;
+    text-align: right;
+}
+
+.profile-image img {
+    max-width: 123%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+
+.circle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 500px;
+    background-color: #6a42c9;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        margin-top: 50px;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        margin-top: 100px;
+       
+     
+    }
+    .profile-content {
+        
+        max-width: 100%;
+    }
+    .profile-image {
+        max-width: 140%;
+        text-align: center;
+    }
+    .profile-image img {
+        max-width: 130%;
+    }
+    .circle {
+        display: none;
+
+    }
+}
+
+
