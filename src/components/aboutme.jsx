@@ -14,8 +14,7 @@ const About = () => {
                     
                 </p>
                 <p className="about-text">
-                    My goal is to craft visually appealing and highly functional websites that enhance user experience. 
-                    hence, i am passionate about consistently advancing my knowledge and skills. 
+                    My goal is to craft visually appealing and highly functional websites that enhance user experience. hence, i am passionate about consistently advancing my knowledge and skills. 
                 </p>
                 <a href="#projects" className="btn">View My Work</a>
             </div>
