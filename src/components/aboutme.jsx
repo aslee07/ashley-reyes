@@ -13,9 +13,7 @@ const About = () => {
                     Hi, I'm <strong>Ashley Khate Reyes</strong>, A Intermediate layout artist and graphic designer, during my college days i have been the project manager and creatives committee head of our college designing amazing and unique contents such as pubmats, etc.
                     My goal is to craft visually appealing and highly functional websites that enhance user experience. hence, i am passionate about consistently advancing my knowledge and skills. 
                 </p>
-                <p className="about-text">
-                    My goal is to craft visually appealing and highly functional websites that enhance user experience. hence, i am passionate about consistently advancing my knowledge and skills. 
-                </p>
+               
                 <a href="#projects" className="btn">View My Work</a>
             </div>
         </section>
