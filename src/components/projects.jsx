@@ -25,7 +25,7 @@ const projects = [
     images: ["pokemon logo.png", "pokemon.png", "pokemon 1.png", "pokemon 2.png"],
     description: "With this project it includes learning and play. It also served as an engaging way to practice strategic thinking and introduced game design principles in a simplified form. Overall there's so much to learn in making this project. ",
     github: "https://github.com/aslee07/pokemon-battle", // Added example link
-    live: "", // No Added example link
+    live: "", 
   },
   
 ];
