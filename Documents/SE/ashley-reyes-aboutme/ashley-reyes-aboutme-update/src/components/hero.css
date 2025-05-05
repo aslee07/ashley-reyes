@@ -1,0 +1,78 @@
+/* Mobile Specific Styles */
+@media screen and (max-width: 800px) {
+    /* Hero Container */
+    .hero-container {
+      flex-wrap: wrap-reverse; /* Stack content vertically on mobile */
+      flex-grow: unset;
+    }
+  
+    /* Image container adjustments */
+    .hero-image-container {
+      width: 100%; /* Full width for the image container */
+      padding-left: 20px;
+      height: 200px;
+      margin-top: 5rem;
+    }
+
+    .image-container{
+        width: 100%;
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+    }
+  
+    /* Image adjustments */
+    .hero-image {
+      width: 13rem;
+      height: 13rem;
+      border-radius: 100%;
+      position: static;
+      border: 1px solid black;
+    }
+  
+    .hero-square-circle {
+      display: none; /* Hide square and circle on mobile */
+    }
+  
+    /* Text container adjustments */
+    .hero-text-container {
+      width: 100%; /* Full width for text */
+      text-align: center; /* Center text on mobile */
+      padding-left: 0; /* Remove left padding */
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    /* Heading font size */
+    .hero-heading {
+      font-size: 1.5rem; /* Smaller font size for mobile */
+      margin-top: 0;
+    }
+  
+    /* Name font size */
+    .hero-name {
+      font-size: 2.5rem; /* Smaller font size for mobile */
+    }
+  
+    /* Role font size */
+    .hero-role {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+    }
+  
+    /* Button adjustments */
+    .hero-button {
+      font-size: 0.875rem; /* Smaller font size for mobile */
+      padding: 0.5rem 1rem;
+    }
+
+    .button-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  
