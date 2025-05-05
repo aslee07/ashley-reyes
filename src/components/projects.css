@@ -1,0 +1,11 @@
+@media (max-width: 800px) {
+    .close-button-project {
+      right: 2rem; /* or right: 16px; */
+    }
+    .image-size-project{
+        height: 20rem;
+    }
+    .description-project{
+        padding: 0;
+    }
+  }
